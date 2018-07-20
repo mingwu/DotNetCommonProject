@@ -1,0 +1,14 @@
+bin\Release\LogUtility.dll
+bin\Release\LogUtility.pdb
+bin\Release\LogUtility.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\LogUtility.dll
+obj\Release\LogUtility.xml
+obj\Release\LogUtility.pdb
+bin\Debug\LogUtility.dll
+bin\Debug\LogUtility.pdb
+bin\Debug\LogUtility.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LogUtility.dll
+obj\Debug\LogUtility.xml
+obj\Debug\LogUtility.pdb

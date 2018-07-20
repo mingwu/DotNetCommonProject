@@ -1,0 +1,12 @@
+F:\项目\DotNetCommonProject\DatabaseOperation\bin\Debug\DatabaseOperation.dll
+F:\项目\DotNetCommonProject\DatabaseOperation\bin\Debug\DatabaseOperation.pdb
+F:\项目\DotNetCommonProject\DatabaseOperation\bin\Debug\DatabaseOperation.xml
+F:\项目\DotNetCommonProject\DatabaseOperation\bin\Debug\LogUtility.dll
+F:\项目\DotNetCommonProject\DatabaseOperation\bin\Debug\LogUtility.pdb
+F:\项目\DotNetCommonProject\DatabaseOperation\bin\Debug\LogUtility.xml
+F:\项目\DotNetCommonProject\DatabaseOperation\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\DotNetCommonProject\DatabaseOperation\obj\Debug\Resources.resources
+F:\项目\DotNetCommonProject\DatabaseOperation\obj\Debug\DatabaseOperation.vbproj.GenerateResource.Cache
+F:\项目\DotNetCommonProject\DatabaseOperation\obj\Debug\DatabaseOperation.dll
+F:\项目\DotNetCommonProject\DatabaseOperation\obj\Debug\DatabaseOperation.xml
+F:\项目\DotNetCommonProject\DatabaseOperation\obj\Debug\DatabaseOperation.pdb

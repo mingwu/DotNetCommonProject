@@ -1,0 +1,9 @@
+F:\项目\DotNetCommonProject\GeoIP\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\DotNetCommonProject\GeoIP\obj\Debug\GeoIP.Resources.resources
+F:\项目\DotNetCommonProject\GeoIP\obj\Debug\GeoIP.vbproj.GenerateResource.Cache
+F:\项目\DotNetCommonProject\GeoIP\bin\Debug\GeoIP.pdb
+F:\项目\DotNetCommonProject\GeoIP\bin\Debug\GeoIP.xml
+F:\项目\DotNetCommonProject\GeoIP\obj\Debug\GeoIP.xml
+F:\项目\DotNetCommonProject\GeoIP\obj\Debug\GeoIP.pdb
+F:\项目\DotNetCommonProject\GeoIP\bin\Debug\GeoIP.dll
+F:\项目\DotNetCommonProject\GeoIP\obj\Debug\GeoIP.dll

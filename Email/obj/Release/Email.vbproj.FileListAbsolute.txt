@@ -1,0 +1,12 @@
+F:\项目\DotNetCommonProject\Email\bin\Release\Email.dll
+F:\项目\DotNetCommonProject\Email\bin\Release\Email.pdb
+F:\项目\DotNetCommonProject\Email\bin\Release\Email.xml
+F:\项目\DotNetCommonProject\Email\bin\Release\LogUtility.dll
+F:\项目\DotNetCommonProject\Email\bin\Release\LogUtility.pdb
+F:\项目\DotNetCommonProject\Email\bin\Release\LogUtility.xml
+F:\项目\DotNetCommonProject\Email\obj\Release\ResolveAssemblyReference.cache
+F:\项目\DotNetCommonProject\Email\obj\Release\Resources.resources
+F:\项目\DotNetCommonProject\Email\obj\Release\Email.vbproj.GenerateResource.Cache
+F:\项目\DotNetCommonProject\Email\obj\Release\Email.dll
+F:\项目\DotNetCommonProject\Email\obj\Release\Email.xml
+F:\项目\DotNetCommonProject\Email\obj\Release\Email.pdb

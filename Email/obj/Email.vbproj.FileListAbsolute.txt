@@ -1,0 +1,12 @@
+F:\项目\语音合成\TTS\Email\bin\Debug\Email.dll
+F:\项目\语音合成\TTS\Email\bin\Debug\Email.pdb
+F:\项目\语音合成\TTS\Email\bin\Debug\Email.xml
+F:\项目\语音合成\TTS\Email\bin\Debug\LogUtility.dll
+F:\项目\语音合成\TTS\Email\bin\Debug\LogUtility.pdb
+F:\项目\语音合成\TTS\Email\bin\Debug\LogUtility.xml
+F:\项目\语音合成\TTS\Email\obj\Debug\ResolveAssemblyReference.cache
+F:\项目\语音合成\TTS\Email\obj\Debug\Resources.resources
+F:\项目\语音合成\TTS\Email\obj\Debug\Email.vbproj.GenerateResource.Cache
+F:\项目\语音合成\TTS\Email\obj\Debug\Email.dll
+F:\项目\语音合成\TTS\Email\obj\Debug\Email.xml
+F:\项目\语音合成\TTS\Email\obj\Debug\Email.pdb

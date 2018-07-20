@@ -1,0 +1,10 @@
+E:\项目\Mac\项目\你我同行\Asp.Net\mobile test\QingboWeb\CKFinder.NET\bin\Debug\CKFinder.dll
+E:\项目\Mac\项目\你我同行\Asp.Net\mobile test\QingboWeb\CKFinder.NET\bin\Debug\CKFinder.pdb
+E:\项目\Mac\项目\你我同行\Asp.Net\mobile test\QingboWeb\CKFinder.NET\obj\Debug\ResolveAssemblyReference.cache
+E:\项目\Mac\项目\你我同行\Asp.Net\mobile test\QingboWeb\CKFinder.NET\obj\Debug\CKFinder.dll
+E:\项目\Mac\项目\你我同行\Asp.Net\mobile test\QingboWeb\CKFinder.NET\obj\Debug\CKFinder.pdb
+C:\work\DotNetCommonProject\CKFinder.NET\bin\Debug\CKFinder.dll
+C:\work\DotNetCommonProject\CKFinder.NET\bin\Debug\CKFinder.pdb
+C:\work\DotNetCommonProject\CKFinder.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\work\DotNetCommonProject\CKFinder.NET\obj\Debug\CKFinder.dll
+C:\work\DotNetCommonProject\CKFinder.NET\obj\Debug\CKFinder.pdb

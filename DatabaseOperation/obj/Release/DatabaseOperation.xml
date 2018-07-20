@@ -1,0 +1,312 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DatabaseOperation
+</name>
+</assembly>
+<members>
+<member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存 ResourceManager 实例。
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  为使用此强类型资源类的所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  强类型资源类，用于查找本地化字符串等。
+</summary>
+</member><member name="F:DatabaseOperation.DataBase_SQLServer._ConnectionString">
+	<summary>
+ 连接字符串，私有
+ </summary>
+	<remarks></remarks>
+</member><member name="F:DatabaseOperation.DataBase_SQLServer._ConnectionObject">
+	<summary>
+ 数据库连接对象，私有
+ </summary>
+	<remarks></remarks>
+</member><member name="P:DatabaseOperation.DataBase_SQLServer.Connection">
+	<summary>
+ 连接字符串，公有
+ </summary>
+	<value>连接字符串</value>
+	<returns>连接字符串</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.#ctor">
+	<summary>
+ SQL Server 数据库
+ </summary>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.#ctor(System.String)">
+	<summary>
+ SQL Server 数据库
+ </summary>
+	<param name="ConnectionString">数据库连接字符串</param>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.Open">
+	<summary>
+ 打开数据库连接
+ </summary>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.Open(System.String)">
+	<summary>
+ 打开数据库连接
+ </summary>
+	<param name="ConnectionString">数据库连接字符串</param>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.Close">
+	<summary>
+ 关闭数据库连接
+ </summary>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.CreateCmd(System.String,System.Data.SqlClient.SqlConnection)">
+	<summary>
+ 生成Command对象，私有
+ </summary>
+	<param name="SqlString">Sql语句</param>
+	<param name="ConnectionObject">Connection对象</param>
+	<returns>Command对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.CreateCmd(System.String,System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlParameter[],System.Data.CommandType)">
+	<summary>
+ 生成Command对象，私有
+ </summary>
+	<param name="SqlString">Sql语句</param>
+	<param name="ConnectionObject">Connection对象</param>
+	<param name="Parameters">参数集合</param>
+	<param name="CommondType">CommondText属性</param>
+	<returns>Command对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExistDate(System.String)">
+	<summary>
+ 检验是否存在数据
+ </summary>
+	<param name="SqlString">Sql语句</param>
+	<returns>返回 TRUE FALSE</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExistDate(System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 检验是否存在数据
+ </summary>
+	<param name="SqlString">Sql语句</param>
+	<param name="Parameters">参数集合</param>
+	<returns>返回 TRUE FALSE</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSql(System.String)">
+	<summary>
+ 运行SQL语句
+ </summary>
+	<param name="SqlString">Sql语句</param>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSqlNonQuery(System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 运行SQL语句
+ </summary>
+	<param name="SqlString">Sql语句</param>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSql(System.String,System.Data.DataTable)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<returns>返回DataTable对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSql(System.String,System.Data.DataTable,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<returns>返回DataTable对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSql(System.String,System.Data.DataTable,System.Int32,System.Int32)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<param name="PageSize">每页条数</param>
+	<param name="PageNo">页码</param>
+	<returns>返回DataTable对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSql(System.String,System.Data.DataTable,System.Int32,System.Int32,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<param name="PageSize">每页条数</param>
+	<param name="PageNo">页码</param>
+	<param name="Parameters">参数集合</param>
+	<returns>返回DataTable对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSqlReturnDataReader(System.String)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<returns>返回SqlDataReader对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBase_SQLServer.ExecuteSqlReturnDataReader(System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="Parameters">参数集合</param>
+	<returns>返回SqlDataReader对象</returns>
+	<remarks></remarks>
+</member><member name="T:DatabaseOperation.DataBase_SQLServer">
+	<summary>
+ SQL Server 数据库操作类
+ </summary>
+	<remarks></remarks>
+</member><member name="P:DatabaseOperation.DataBaseClass.Connection">
+	<summary>
+ 连接数据库字符串
+ </summary>
+</member><member name="M:DatabaseOperation.DataBaseClass.Open">
+	<summary>
+ 打开数据库连接
+ </summary>
+</member><member name="M:DatabaseOperation.DataBaseClass.Open(System.String)">
+	<summary>
+ 打开数据库连接
+ </summary>
+	<param name="ConnectionString">数据库连接字符串</param>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.Close">
+	<summary>
+ 关闭数据库连接
+ </summary>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExistDate(System.String)">
+	<summary>
+ 检验是否存在数据
+ </summary>
+	<param name="SqlString">Sql语句</param>
+	<returns>返回 TRUE FALSE</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExistDate(System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="Parameters">参数集合</param>
+	<returns>是否存在数据</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSqlNonQuery(System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="Parameters">参数集合</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSql(System.String)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<returns>不返回值</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSql(System.String,System.Data.DataTable)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<returns>返回DataSet对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSql(System.String,System.Data.DataTable,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<param name="Parameters">参数集合</param>
+	<returns>返回DataTable对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSql(System.String,System.Data.DataTable,System.Int32,System.Int32)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<param name="PageSize">每页条数</param>
+	<param name="PageNo">页码</param>
+	<returns>返回DataTable对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSql(System.String,System.Data.DataTable,System.Int32,System.Int32,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="DataTableObj">DataTable对象</param>
+	<param name="PageSize">每页条数</param>
+	<param name="PageNo">页码</param>
+	<param name="Parameters">参数集合</param>
+	<returns>返回DataTable对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSqlReturnDataReader(System.String)">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<returns>返回SqlDataReader对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseClass.ExecuteSqlReturnDataReader(System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary>
+ 执行SQL语句
+ </summary>
+	<param name="SqlString">SQL语句</param>
+	<param name="Parameters">参数集合</param>
+	<returns>返回SqlDataReader对象</returns>
+	<remarks></remarks>
+</member><member name="T:DatabaseOperation.DataBaseClass">
+	<summary>
+ 数据库基类
+ </summary>
+</member><member name="M:DatabaseOperation.DataBaseFactory.GetDataBase(DatabaseOperation.DataBaseEnum)">
+	<summary>
+ 获取一个数据库操作对象
+ </summary>
+	<param name="DataBaseEnum">操作数据库类型</param>
+	<returns>操作数据库对象</returns>
+	<remarks></remarks>
+</member><member name="M:DatabaseOperation.DataBaseFactory.GetDataBase(System.String,DatabaseOperation.DataBaseEnum)">
+	<summary>
+ 获取一个数据库操作对象
+ </summary>
+	<param name="ConnectionString">数据库连接字符串</param>
+	<param name="DataBaseEnum">操作数据库类型</param>
+	<returns>操作数据库对象</returns>
+	<remarks></remarks>
+</member><member name="F:DatabaseOperation.DataBaseEnum.OleDB">
+	<summary>
+ OleDB 数据库
+ </summary>
+</member><member name="F:DatabaseOperation.DataBaseEnum.ODBC">
+	<summary>
+ ODBC 数据库
+ </summary>
+</member><member name="F:DatabaseOperation.DataBaseEnum.Oracle">
+	<summary>
+ Oracle 数据库
+ </summary>
+</member><member name="F:DatabaseOperation.DataBaseEnum.SQLServer">
+	<summary>
+ SQL Server 数据库
+ </summary>
+</member><member name="F:DatabaseOperation.DataBaseEnum.MySQLServer">
+	<summary>
+ MySQL Server 数据库
+ </summary>
+</member><member name="T:DatabaseOperation.DataBaseEnum">
+	<summary>
+ 数据库类型
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LogUtility
+</name>
+</assembly>
+<members>
+<member name="M:LogUtility.Logger.ExistsFile(System.String)">
+	<summary>
+ 监测文件存在否
+ </summary>
+	<param name="FilePath">文件路径</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogUtility.Logger.ExistsPath(System.String)">
+	<summary>
+ 监测是否存在路径
+ </summary>
+	<param name="Path">路径</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:LogUtility.Logger.CreaterPath(System.String)">
+	<summary>
+ 创建路径
+ </summary>
+	<param name="Path">路径</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,12 @@
+bin\Debug\Email.dll
+bin\Debug\Email.pdb
+bin\Debug\Email.xml
+bin\Debug\LogUtility.dll
+bin\Debug\LogUtility.pdb
+bin\Debug\LogUtility.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Resources.resources
+obj\Debug\Email.vbproj.GenerateResource.Cache
+obj\Debug\Email.dll
+obj\Debug\Email.xml
+obj\Debug\Email.pdb
